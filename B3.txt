@@ -1,0 +1,31 @@
+1.Lưu trữ danh sách sinh viên theo thứ tự nhập vào
+Cấu trúc dữ liệu: Danh sách liên kết (Linked List) 
+Lý do:
+
+Linked List: Dễ dàng thêm phần tử vào cuối danh sách mà không cần thay đổi kích thước, phù hợp khi số lượng sinh viên thay đổi linh hoạt.
+
+2.Tìm kiếm nhanh tên một sản phẩm trong danh sách hàng triệu sản phẩm
+Cấu trúc dữ liệu: Bảng băm (Hash Table)
+Lý do:
+
+Bảng băm cung cấp khả năng tìm kiếm với thời gian trung bình là O(1). Mỗi sản phẩm có thể được lưu với một khóa (key) tương ứng, cho phép truy cập trực tiếp mà không cần duyệt toàn bộ danh sách.
+
+3. Quản lý danh sách các task công việc cần xử lý theo thứ tự ưu tiên
+Cấu trúc dữ liệu: Heap
+Lý do:
+
+Heap: Cung cấp các thao tác thêm và lấy phần tử có độ ưu tiên cao nhất với độ phức tạp O(log n).
+
+4. Lưu trữ dữ liệu hệ thống phân cấp như thư mục máy tính
+Cấu trúc dữ liệu: Cây (Tree), đặc biệt là Cây nhị phân hoặc cây đa nhánh
+Lý do:
+
+Cấu trúc cây thể hiện rõ mối quan hệ phân cấp giữa các thư mục, giúp dễ dàng điều hướng và tổ chức dữ liệu theo cấu trúc cha-con.
+
+
+5. Tìm đường đi ngắn nhất giữa 2 điểm trên bản đồ
+Cấu trúc dữ liệu: Đồ thị (Graph)
+Lý do:
+
+Đồ thị biểu diễn mạng lưới các điểm (đỉnh) và đường đi (cạnh). Các thuật toán như Dijkstra hoặc A* sử dụng cấu trúc đồ thị để tìm đường đi ngắn nhất giữa hai điểm.
+
